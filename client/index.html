@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- Metadata / Overview info like title -->
+        <title>Hello</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="./script/index.js" defer></script>
+    </head>
+    <body> <!-- Visible to user -->
+        <h1>Todo List Application</h1>
+        <div class="add-task-container">
+            <h2>Add Task</h2>
+            <div class="new-list">
+                <form id="add-task-form">
+                    <input type="text" id="new-task" placeholder="Add new task">
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <br/>
+        <div class="lists-container">
+            <div class="list">
+                <h2>To-do's</h2>
+                <ul class="todo-list" id="tasks"></ul>
+            </div>
+            <div class="done-list">
+                <h2>Done</h2>
+                <ul class="done" id="tasks-done"></ul>
+            </div>
+        </div>
+    </body>
+</html>
+<!--
+To do: 
+
+    3/27/2024
+
+    remove bulletpoints
+    make it look acceptable
+    split screen into two 'to do' and 'done' > research display flex
+    codeacademy: javascript course
+        checked items move from 'to do' to 'done' **PENDING**
+
+    4/3/2024
+
+    Todo:   
+            agregar fecha para ver los due dates - this implements objects
+            agregar label like urgent or important - this implements objects
+            agregar option para eliminar - more DOM modification
+            after submit remove text from input - more DOM modification - DONE on my side
+
+-->
+<!--
+
+    front-end: visible UX UI, page change, button actions
+
+    server: servidor de tu back end - front end
+    back-end: codigo que connecta database, services
+
+    middleware: REST API - 2 way communication - 
+                REQUEST RESPONSE ARCHITECHTURE
+
+-->
